@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TutrMe | AI Learning Intelligence Platform</title>
+    <meta
+      name="description"
+      content="Executive AI showcase for TutrMe, a sensory-friendly learning intelligence platform."
+    >
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header class="topbar" aria-label="TutrMe navigation">
+      <a class="brand" href="#top" aria-label="TutrMe home">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="./assets/tutrme-logo.png" alt="">
+        </span>
+        <span>TutrMe</span>
+      </a>
+      <nav aria-label="Page sections">
+        <a href="#demo">3D demo</a>
+        <a href="#learning">Learning model</a>
+        <a href="https://github.com/ldodds-dev/tutrme-mvp" target="_blank" rel="noreferrer">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero cover-hero" aria-labelledby="hero-title">
+        <img
+          class="hero-image"
+          src="./assets/tutrme-cover.png"
+          alt="TutrMe cover image showing a learner speaking into a microphone with organize and reflect learning cards"
+        >
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <h1 id="hero-title" class="sr-only">TutrMe AI Learning Intelligence Platform</h1>
+        </div>
+      </section>
+
+      <section class="learning-strip" aria-label="TutrMe summary">
+        <article>
+          <span>Primary user</span>
+          <strong>Learners, tutors, instructors</strong>
+        </article>
+        <article>
+          <span>Core workflow</span>
+          <strong>Map, adapt, support, improve</strong>
+        </article>
+        <article>
+          <span>Public view</span>
+          <strong>No local network details displayed</strong>
+        </article>
+      </section>
+
+      <section class="brand-section" aria-label="TutrMe logo direction">
+        <div class="brand-card">
+          <img src="./assets/tutrme-logo.png" alt="TutrMe logo, a smiling chat bubble wearing a graduation cap">
+          <div>
+            <p class="eyebrow">Brand system</p>
+            <h2>Friendly learning intelligence, built around the TutrMe mark</h2>
+            <p>
+              The showcase uses the logo&apos;s graduation-cap and chat-bubble personality as the visual
+              foundation: approachable, academic, conversational, and calm.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="demo" class="section demo-section" aria-labelledby="demo-title">
+        <div class="section-copy">
+          <p class="eyebrow">Live sensory-friendly demo</p>
+          <h2 id="demo-title">Calm 3D learning map</h2>
+          <p>
+            The demo uses soft motion, low-noise colors, and a pause control so the experience stays
+            learner-friendly. The graphic runs locally in the page.
+          </p>
+        </div>
+
+        <div class="demo-shell">
+          <div class="canvas-frame">
+            <canvas id="learning-canvas" width="980" height="560" aria-label="Sensory-friendly 3D learning path demo"></canvas>
+          </div>
+          <aside class="comfort-panel" aria-label="Sensory controls">
+            <h3>Comfort controls</h3>
+            <label class="toggle">
+              <input id="motion-toggle" type="checkbox" checked>
+              Gentle motion
+            </label>
+            <label>
+              Visual softness
+              <input id="softness" type="range" min="20" max="90" value="68">
+            </label>
+            <label>
+              Learning confidence
+              <input id="confidence" type="range" min="35" max="100" value="74">
+            </label>
+            <div class="insight" aria-live="polite">
+              <span id="confidence-score">74%</span>
+              <p id="confidence-copy">Ready for a guided practice path with light review.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="learning" class="section learning-section" aria-labelledby="learning-title">
+        <div class="section-copy">
+          <p class="eyebrow">Learning intelligence</p>
+          <h2 id="learning-title">Education-friendly product framing</h2>
+        </div>
+        <div class="value-grid">
+          <article>
+            <span>01</span>
+            <h3>Adaptive paths</h3>
+            <p>Recommends the next learning step from progress, skill confidence, and topic readiness.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Support signals</h3>
+            <p>Shows tutors where a learner may need reinforcement without overwhelming the learner.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Sensory-aware UI</h3>
+            <p>Uses calm motion, readable spacing, and gentle color contrast for a friendlier study experience.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>TutrMe AI Showcase</span>
+      <a href="https://github.com/ldodds-dev/tutrme-mvp" target="_blank" rel="noreferrer">ldodds-dev/tutrme-mvp</a>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
