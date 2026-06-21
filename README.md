@@ -59,13 +59,13 @@ tutrme/
 Open `index.html` directly in a browser, or run a local static server:
 
 ```bash
-python3 -m http.server 8000
+python3 -m http.server 8001
 ```
 
 Then open:
 
 ```text
-http://localhost:8000/
+http://localhost:8001/
 ```
 
 ## Deploy With GitHub Pages
