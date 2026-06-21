@@ -1,8 +1,6 @@
 
 # TutrMe AI Learning Intelligence Platform
 
-Live showcase: https://ldodds-dev.github.io/tutrme.github.io/#learning
-
 <img width="1536" height="1024" alt="tutrme-cover" src="https://github.com/user-attachments/assets/ec2b4c9b-d985-4007-bcb5-81616ddf234c" />
 
 This AI project is intended to showcase TutrMe, an education-friendly learning intelligence platform. The experience is designed around calm visuals, supportive learning signals, and a sensory-friendly interactive demo.
@@ -108,8 +106,8 @@ This is a static showcase. The demo runs in the browser and does not submit lear
 
 ## Related Links
 
-- Live showcase: https://ldodds-dev.github.io/tutrme.github.io/#learning
-- Project repository link in showcase: https://github.com/ldodds-dev/tutrme-mvp
+- Project showcase: https://ldodds-dev.github.io/tutrme.github.io/#learning
+- MVP site: https://github.com/ldodds-dev/tutrme-mvp
 
 ## Intellectual Property
 
