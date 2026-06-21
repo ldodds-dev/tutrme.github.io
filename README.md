@@ -5,8 +5,6 @@
 
 This AI project is intended to showcase TutrMe, an education-friendly learning intelligence platform. The experience is designed around calm visuals, supportive learning signals, and a sensory-friendly interactive demo.
 
-This project is a standalone showcase with its own audience, use case, and product story.
-
 ## Project Purpose
 
 TutrMe presents an AI-powered learning support concept for learners, tutors, and instructors. The showcase focuses on helping users understand learning progress, organize thinking, reflect on performance, and follow adaptive study paths.
